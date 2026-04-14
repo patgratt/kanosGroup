@@ -23,18 +23,29 @@ export default function HomePage() {
           </div>
 
           <div className="hero-visual">
-            <div className="visual-card visual-card-large">
-              <p className="visual-label">Brand Positioning</p>
-              <strong>Deep customer understanding</strong>
-              <span>Messaging rooted in research, empathy, and clear business goals.</span>
+            <div className="hero-image-panel">
+              <img
+                src="/images/image3.png"
+                alt="Team reviewing campaign and analytics documents across a table"
+                className="hero-main-image"
+              />
             </div>
-            <div className="visual-card">
-              <p className="visual-label">Execution</p>
-              <strong>Content, campaigns, and management</strong>
-            </div>
-            <div className="visual-card accent-card">
-              <p className="visual-label">Optimization</p>
-              <strong>Analytics that sharpen the funnel</strong>
+            <div className="hero-summary-card">
+              <p className="visual-label">Capabilities</p>
+              <div className="hero-summary-list">
+                <div>
+                  <strong>Brand Positioning</strong>
+                  <p>Deep customer understanding grounded in research, empathy, and business context.</p>
+                </div>
+                <div>
+                  <strong>Execution</strong>
+                  <p>Content, campaigns, and management systems built for consistency and momentum.</p>
+                </div>
+                <div>
+                  <strong>Optimization</strong>
+                  <p>Analytics that sharpen the funnel and improve each next decision.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -110,18 +121,27 @@ export default function HomePage() {
               Read our story
             </Link>
           </div>
-          <div className="value-list-card">
-            <div>
-              <strong>Your voice is your currency.</strong>
-              <p>Your brand is one of the most valuable assets your business can build.</p>
+          <div className="media-stack">
+            <div className="value-list-card">
+              <div>
+                <strong>Your voice is your currency.</strong>
+                <p>Your brand is one of the most valuable assets your business can build.</p>
+              </div>
+              <div>
+                <strong>Quality over quantity.</strong>
+                <p>We create with intention, not for the sake of activity.</p>
+              </div>
+              <div>
+                <strong>Integrity matters.</strong>
+                <p>Clear thinking and honest advice are central to how we work.</p>
+              </div>
             </div>
-            <div>
-              <strong>Quality over quantity.</strong>
-              <p>We create with intention, not for the sake of activity.</p>
-            </div>
-            <div>
-              <strong>Integrity matters.</strong>
-              <p>Clear thinking and honest advice are central to how we work.</p>
+            <div className="inline-image-card">
+              <img
+                src="/images/image6.jpg"
+                alt="Business discussion around a table representing collaborative client partnership"
+                className="section-image"
+              />
             </div>
           </div>
         </div>

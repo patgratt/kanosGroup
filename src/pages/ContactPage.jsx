@@ -14,12 +14,19 @@ export default function ContactPage() {
             </p>
           </div>
           <div className="info-panel">
-            <p className="visual-label">Best way to reach us</p>
-            <strong>Email is the easiest place to start.</strong>
-            <span>
-              Share a bit about your business, your goals, and the kind of support you are looking for,
-              and we can take it from there.
-            </span>
+            <img
+              src="/images/image4.jpg"
+              alt="Professional creating recorded content at a desk"
+              className="panel-image"
+            />
+            <div className="panel-image-copy">
+              <p className="visual-label">Best way to reach us</p>
+              <strong>Email is the easiest place to start.</strong>
+              <span>
+                Share a bit about your business, your goals, and the kind of support you are looking for,
+                and we can take it from there.
+              </span>
+            </div>
           </div>
         </div>
       </section>
@@ -50,6 +57,13 @@ export default function ContactPage() {
           </article>
 
           <aside className="contact-sidebar">
+            <div className="inline-image-card">
+              <img
+                src="/images/image1.jpg"
+                alt="Mobile-first digital marketing visual in a city setting"
+                className="section-image"
+              />
+            </div>
             <article className="mini-card">
               <strong>Helpful things to include</strong>
               <ul className="clean-list">

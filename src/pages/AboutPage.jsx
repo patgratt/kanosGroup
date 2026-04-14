@@ -12,12 +12,19 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="info-panel">
-            <p className="visual-label">What matters here</p>
-            <strong>Boutique attention. High standards. Lasting client relationships.</strong>
-            <span>
-              We work with people who care deeply about the work they put into the world, and we help
-              sharpen those identities into flourishing brands.
-            </span>
+            <img
+              src="/images/image4.jpg"
+              alt="Creative professional filming content at a desk"
+              className="panel-image"
+            />
+            <div className="panel-image-copy">
+              <p className="visual-label">What matters here</p>
+              <strong>Boutique attention. High standards. Lasting client relationships.</strong>
+              <span>
+                We work with people who care deeply about the work they put into the world, and we help
+                sharpen those identities into flourishing brands.
+              </span>
+            </div>
           </div>
         </div>
       </section>
@@ -58,7 +65,11 @@ export default function AboutPage() {
         <div className="container split-panel founder-layout">
           <div className="portrait-placeholder">
             <div className="portrait-frame">
-              <p>Founder portrait or brand photography can go here when uploaded.</p>
+              <img
+                src="/images/image5.png"
+                alt="Portrait of Will Papazahariou"
+                className="portrait-image"
+              />
             </div>
           </div>
           <div className="panel-copy">

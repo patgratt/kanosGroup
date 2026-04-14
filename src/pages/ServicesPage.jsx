@@ -12,12 +12,19 @@ export default function ServicesPage() {
             </p>
           </div>
           <div className="info-panel">
-            <p className="visual-label">Flexible engagement</p>
-            <strong>Full-stack campaigns or focused support.</strong>
-            <span>
-              The right model depends on your goals, current stage, internal bandwidth, and where your
-              biggest opportunities live.
-            </span>
+            <img
+              src="/images/image2.jpg"
+              alt="Marketing planning session with notes, roadmap, and laptop"
+              className="panel-image"
+            />
+            <div className="panel-image-copy">
+              <p className="visual-label">Flexible engagement</p>
+              <strong>Full-stack campaigns or focused support.</strong>
+              <span>
+                The right model depends on your goals, current stage, internal bandwidth, and where your
+                biggest opportunities live.
+              </span>
+            </div>
           </div>
         </div>
       </section>
@@ -112,14 +119,23 @@ export default function ServicesPage() {
               business is currently in.
             </p>
           </div>
-          <div className="engagement-card">
-            <strong>Best fit for Kanos</strong>
-            <ul className="clean-list">
-              <li>Small businesses ready to scale intentionally</li>
-              <li>Founders who want clearer brand positioning</li>
-              <li>Teams that need strategic marketing support without excess complexity</li>
-              <li>Businesses looking for a thoughtful long-term partner</li>
-            </ul>
+          <div className="media-stack">
+            <div className="engagement-card">
+              <strong>Best fit for Kanos</strong>
+              <ul className="clean-list">
+                <li>Small businesses ready to scale intentionally</li>
+                <li>Founders who want clearer brand positioning</li>
+                <li>Teams that need strategic marketing support without excess complexity</li>
+                <li>Businesses looking for a thoughtful long-term partner</li>
+              </ul>
+            </div>
+            <div className="inline-image-card">
+              <img
+                src="/images/image6.jpg"
+                alt="Client strategy conversation over coffee"
+                className="section-image"
+              />
+            </div>
           </div>
         </div>
       </section>
