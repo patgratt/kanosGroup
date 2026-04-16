@@ -5,63 +5,104 @@ export default function AboutPage() {
         <div className="container page-hero-grid">
           <div>
             <p className="eyebrow">ABOUT US</p>
-            <h1>We exist to build meaningful connections through thoughtful, intentional marketing.</h1>
+            <h1>Thoughtful strategy, clear voice, and intentional work.</h1>
             <p className="lead">
-              Kanos Group helps organizations discover, craft, and communicate their authentic voice
-              through strategy that is deeply rooted in who they are and who they serve.
+              A boutique agency committed to helping brands communicate who they are with more clarity,
+              confidence, and purpose.
             </p>
           </div>
-          <div className="info-panel">
-            <img
-              src="/images/image4.jpg"
-              alt="Creative professional filming content at a desk"
-              className="panel-image"
-            />
-            <div className="panel-image-copy">
-              <p className="visual-label">What matters here</p>
-              <strong>Boutique attention. High standards. Lasting client relationships.</strong>
-              <span>
-                We work with people who care deeply about the work they put into the world, and we help
-                sharpen those identities into flourishing brands.
-              </span>
-            </div>
+          <div className="about-hero-card">
+            <p className="statement-label">Mission Statement</p>
+            <p>
+              Our mission is to help small businesses and organizations discover, craft, and communicate
+              their authentic voice by emphasizing high-level, intentional strategies so that they grow
+              into distinguished and purposeful brands.
+            </p>
+            <p className="statement-label">Vision Statement</p>
+            <p>
+              We want to build a company that has a deep and accurate understanding of people and how they
+              operate in the many different contexts of the world.
+            </p>
           </div>
         </div>
       </section>
 
       <section className="section">
-        <div className="container split-panel">
-          <div className="panel-copy">
-            <p className="section-kicker">Our story</p>
-            <h2>Good strategy starts with curiosity.</h2>
+        <div className="container prose-section">
+          <p className="section-kicker">About Kanos</p>
+          <h2>About Us</h2>
+          <div className="prose-copy">
             <p>
-              We are a team of curious and driven people inspired to look anywhere and everywhere for
-              perspectives that make marketing more differentiated, more purposeful, and more human.
+              Kanos Group exists to tell really compelling stories about people, businesses, and
+              organizations so that we can create more meaningful connections in the world. We do this by
+              helping organizations discover, craft, and communicate their authentic voice through
+              high-level and intentional strategies.
             </p>
             <p>
-              As a boutique agency, we are committed to quality over noise. We offer complete marketing
-              support through end-to-end campaigns, or project-specific help when a client needs support
-              in one part of the funnel.
+              We are a team of curious and driven people that are inspired to look anywhere and
+              everywhere to develop unique perspectives and insights that make your marketing
+              differentiated and purposeful.
             </p>
-          </div>
-          <div className="stacked-cards">
-            <article className="mini-card">
-              <strong>Authentic voice</strong>
-              <p>We help clients uncover what is genuinely theirs and communicate it clearly.</p>
-            </article>
-            <article className="mini-card">
-              <strong>Intentional strategy</strong>
-              <p>Every recommendation should support the larger direction of the business.</p>
-            </article>
-            <article className="mini-card">
-              <strong>Personal partnership</strong>
-              <p>We aim for long-term relationships, not transactional project work.</p>
-            </article>
+            <p>
+              As a boutique agency, we are committed to a high quality of work and lasting, personal
+              relationships with our clients. We work with people, internally and externally, that are
+              truly inspired by the work they put out in the world. We help sharpen these passionate
+              identities into fully-developed and flourishing brands.
+            </p>
+            <p>
+              We offer complete marketing support in our end-to-end campaign package, covering strategy
+              to analytics, or we can help anywhere in your marketing funnel if you need more
+              project-specific support.
+            </p>
           </div>
         </div>
       </section>
 
       <section className="section section-alt">
+        <div className="container">
+          <p className="section-kicker">Values</p>
+          <h2>Expanded core values</h2>
+          <div className="values-grid">
+            <article className="value-card">
+              <h3>Your voice is your currency</h3>
+              <p>
+                We believe that your voice is your currency. Small businesses often don’t realize that the
+                biggest leverage they have is their brand. Creating and owning things that are unique to
+                you not only gives you a position in the market, but it creates intangible assets that
+                only you have.
+              </p>
+            </article>
+            <article className="value-card">
+              <h3>Quality over quantity</h3>
+              <p>
+                We believe in quality over quantity. We are interested in creating content that is rooted
+                in critical thinking, purpose, and intention, over simply pumping out content for the sake
+                of it. We believe that good marketing amplifies a company’s purpose, builds trust and
+                credibility, and forms meaningful connections with audiences.
+              </p>
+            </article>
+            <article className="value-card">
+              <h3>Curiosity</h3>
+              <p>
+                We encourage curiosity. We are obsessed with the process and technique behind all things;
+                the why of it all. We rigorously ask why in everything we do, so that every decision we
+                make is thought-out, validated, and intentional. We believe valuable ideas can stem from
+                anywhere.
+              </p>
+            </article>
+            <article className="value-card">
+              <h3>Integrity</h3>
+              <p>
+                Integrity. We know that sounds boring. But the integrity of our research, our proposals,
+                our people, means everything to us. The ability to root our work in really strong
+                thinking allows us to deliver amazing results and for you to operate with confidence.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
         <div className="container split-panel founder-layout">
           <div className="portrait-placeholder">
             <div className="portrait-frame">
@@ -72,98 +113,42 @@ export default function AboutPage() {
               />
             </div>
           </div>
-          <div className="panel-copy">
-            <p className="section-kicker">The founder&apos;s story</p>
-            <h2>Will Papazahariou founded Kanos Group to emphasize the why behind every decision.</h2>
+          <div className="prose-copy">
+            <p className="section-kicker">The Founder&apos;s Story</p>
+            <h2>The Founder&apos;s Story</h2>
             <p>
-              He believes that when curious, driven people meet purposeful businesses, really good
-              stories are produced. Messaging, community, and personal voice sit at the core of every
-              strong brand.
+              My name is Will Papazahariou and I founded Kanos Group so I could build a company that
+              emphasizes the why behind every single decision. I believe that when curious and driven
+              people meet purposeful and passionate businesses, really good stories are produced as a
+              result. This storytelling, feeling of community, and personal messaging is the core essence
+              of any good brand we can think of.
             </p>
             <p>
-              That belief is what drives the company: helping people create messages that define culture
-              through their own experiences, their own voice, and the details that make them memorable.
+              I want to help people create the messages that define our culture through the unique
+              experiences and voices of the people we work with. I remain a firm believer that a brand is
+              often the biggest asset that a company can have and am obsessed with the fine details of
+              brands that leave lasting impressions on us.
             </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="container">
-          <div className="section-heading">
-            <div>
-              <p className="section-kicker">Experience</p>
-              <h2>Commercial growth experience paired with strategic consulting rigor.</h2>
-            </div>
-          </div>
-          <div className="timeline-grid">
-            <article className="timeline-card">
-              <span className="timeline-tag">$3M+ revenue generated</span>
-              <h3>Sales leadership and messaging</h3>
-              <p>
-                Will led, trained, managed, and scaled sales teams for a financial services company,
-                selling to both B2C and B2B customers while helping define sales strategy and messaging.
-              </p>
-            </article>
-            <article className="timeline-card">
-              <span className="timeline-tag">Executive collaboration</span>
-              <h3>Values, outreach, and digital strategy</h3>
-              <p>
-                He worked directly with leadership to establish core values, shape outreach messaging,
-                and develop digital marketing strategies that helped move the business in the right
-                direction.
-              </p>
-            </article>
-            <article className="timeline-card">
-              <span className="timeline-tag">NYC strategy consulting</span>
-              <h3>Fortune 500 brand and market work</h3>
-              <p>
-                At a top consultancy, he worked across Streaming, Financial Services, and Alcoholic
-                Beverages on market, brand, and corporate strategy projects that reinforced the value of
-                disciplined thinking behind every recommendation.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section className="section section-alt">
-        <div className="container">
-          <div className="section-heading">
-            <div>
-              <p className="section-kicker">Values</p>
-              <h2>The beliefs that guide our work.</h2>
-            </div>
-          </div>
-          <div className="values-grid">
-            <article className="value-card">
-              <h3>Your voice is your currency</h3>
-              <p>
-                Small businesses often underestimate their brand as a source of leverage. A clear voice
-                creates lasting market position and assets that only you own.
-              </p>
-            </article>
-            <article className="value-card">
-              <h3>Quality over quantity</h3>
-              <p>
-                We are interested in creating work rooted in critical thinking, purpose, and intention
-                rather than simply producing more activity.
-              </p>
-            </article>
-            <article className="value-card">
-              <h3>Curiosity is a discipline</h3>
-              <p>
-                We rigorously ask why so decisions are thought through, validated, and intentional. That
-                process leads to better ideas and sharper strategy.
-              </p>
-            </article>
-            <article className="value-card">
-              <h3>Integrity is non-negotiable</h3>
-              <p>
-                The integrity of our research, recommendations, and work means everything. We value
-                clarity and strong thinking above simply saying what sounds good.
-              </p>
-            </article>
+            <p className="section-kicker">My Past Work</p>
+            <h2>My Past Work</h2>
+            <p>
+              In my past, I’ve generated over $3 million dollars in revenue through leading, training,
+              managing, and scaling sales teams for a small financial services company, selling to both
+              B2C and B2B customers. I helped define our sales strategies through gaining a deep
+              understanding of the people we spoke with, day in and day out, for years.
+            </p>
+            <p>
+              I not only led the top performing sales team in our company, but I also worked with the
+              executive team where I established our core values, created the messaging used in our sales
+              outreach, and developed digital marketing strategies, all of which helped to move the
+              company in the right direction.
+            </p>
+            <p>
+              When I was a Strategy Consultant for a top management consultancy here in NYC, I had the
+              opportunity to work on massive market, brand, and corporate strategy projects across
+              various sectors including Streaming, Financial Services, and Alcoholic Beverages, for
+              Fortune 500 companies.
+            </p>
           </div>
         </div>
       </section>

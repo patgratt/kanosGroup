@@ -30,11 +30,9 @@ export default function Layout({ children }) {
       <header className="site-header">
         <div className="container nav-wrap">
           <Link to="/" className="brand" aria-label="Kanos Marketing home">
-            <span className="brand-mark">KM</span>
-            <span className="brand-text">
-              <strong>Kanos Marketing</strong>
-              <small>Curious. Calculated. Confident.</small>
-            </span>
+            <div className="header-initials-mark" aria-hidden="true">
+              KM
+            </div>
           </Link>
 
           <button
@@ -70,9 +68,13 @@ export default function Layout({ children }) {
 
       <footer className="site-footer">
         <div className="container footer-grid">
-          <div>
-            <strong>Kanos Marketing</strong>
-            <p>Curious. Calculated. Confident.</p>
+          <div className="footer-brand">
+            <img
+              src="/feedback-assets/image3.png"
+              alt="Kanos Marketing wordmark"
+              className="footer-wordmark"
+            />
+            <p>Turning experiences into stories</p>
           </div>
 
           <div className="footer-links">
