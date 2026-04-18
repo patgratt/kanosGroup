@@ -79,6 +79,8 @@ export default function Layout({ children }) {
             <p>Turning experiences into stories</p>
           </div>
 
+          <p className="footer-copy">&copy; {currentYear} Kanos Marketing. All rights reserved.</p>
+
           <div className="footer-links">
             {footerItems.map((item) => (
               <Link key={item.to} to={item.to}>
@@ -86,8 +88,6 @@ export default function Layout({ children }) {
               </Link>
             ))}
           </div>
-
-          <p className="footer-copy">&copy; {currentYear} Kanos Marketing. All rights reserved.</p>
         </div>
       </footer>
     </>

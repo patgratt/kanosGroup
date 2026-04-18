@@ -967,6 +967,7 @@ b {
 }
 
 .footer-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   align-items: center;
 }
 
@@ -983,7 +984,7 @@ b {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .footer-links a {
@@ -997,7 +998,7 @@ b {
 }
 
 .footer-copy {
-  text-align: right;
+  text-align: center;
   color: var(--muted);
 }
 
