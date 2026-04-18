@@ -13,22 +13,24 @@ export default function HomePage() {
             />
             <div className="hero-stage-overlay">
               <img
-                src="/feedback-assets/image3.png"
-                alt="Kanos Marketing wordmark"
+                src="/images/logo-wordmark-sand.png"
+                alt="Kanos Marketing"
                 className="hero-wordmark"
               />
-              <p className="hero-tagline">Turning experiences into stories</p>
-              <p className="hero-intro">
-                Welcome to Kanos Marketing, your boutique agency committed to bringing your story to life
-                by connecting your identity to your audience.
-              </p>
-              <div className="cta-row">
-                <Link to="/contact" className="btn">
-                  Start a conversation
-                </Link>
-                <Link to="/services" className="btn btn-ghost">
-                  Explore services
-                </Link>
+              <div className="hero-base">
+                <p className="hero-tagline">Turning experiences into stories</p>
+                <p className="hero-intro">
+                  Welcome to Kanos Marketing, your boutique agency committed to bringing your story to life
+                  by connecting your identity to your audience.
+                </p>
+                <div className="cta-row">
+                  <Link to="/contact" className="btn">
+                    Start a conversation
+                  </Link>
+                  <Link to="/services" className="btn btn-ghost">
+                    Explore services
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -81,45 +83,62 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="service-flow">
-            <article className="flow-card">
+            <article className="flow-card flow-card-green">
               <span className="flow-number">01</span>
               <h3>Strategy Development</h3>
               <p>
                 We help you set relevant and realistic goals that align with the current state of your
                 company. Then, we tailor marketing strategies that set you apart from the competition.
+                We not only help you define your place in the market, but we define who your customer
+                is and how they behave, so we can ground our strategy in a deep understanding of your
+                audience. We believe this foundational step serves as an anchor for your company to
+                build confidence and momentum in your marketing.
               </p>
             </article>
-            <article className="flow-card">
+            <article className="flow-card flow-card-cream">
               <span className="flow-number">02</span>
               <h3>Content and Campaign Creation</h3>
               <p>
                 Based on our strategy development, we create content that is fresh and relevant to your
-                target customer, with strong intention behind every step of the creative process.
+                target customer, with strong intention behind every step of the creative process. Our
+                campaigns are designed to help you achieve a sustainable, long-term brand positioning,
+                with a custom multi-platform approach best suited for your business. Every campaign is
+                designed with an end goal in mind, so that each piece of campaign serves to create a
+                sum greater than its parts.
               </p>
             </article>
-            <article className="flow-card">
+            <article className="flow-card flow-card-blue">
               <span className="flow-number">03</span>
               <h3>Execution and Management</h3>
               <p>
-                We schedule and post the content for you, set up the tools you need, engage with
-                audiences, and manage ads to ensure your marketing ecosystem gives users a seamless
-                experience across platforms.
+                We schedule and post the content for you with an editorial calendar, set up all the
+                tools you need, engage with audiences, and manage ads to ensure your marketing
+                ecosystem gives users a seamless experience across platforms. We continue to optimize
+                throughout the campaign by testing creatives and tweaking budgets when necessary to
+                give you insights and maximize your investment.
               </p>
             </article>
-            <article className="flow-card">
+            <article className="flow-card flow-card-burgundy">
               <span className="flow-number">04</span>
               <h3>Analytics and Optimization</h3>
               <p>
-                We show you where success actually comes from by tracking key metrics, turning data into
-                actionable insights, and continuing to optimize your marketing funnel over time.
+                We show you where success actually comes from (and where it doesn’t) by tracking and
+                reporting key metrics. We turn data into actionable insights with weekly and monthly
+                reports and strategy sessions so we can plan for the future together. We continue to
+                optimize your content to make sure your marketing funnel is solid and only becomes
+                sharper with every campaign.
               </p>
             </article>
-            <article className="flow-card">
+            <article className="flow-card flow-card-sand">
               <span className="flow-number">05</span>
               <h3>Account Management</h3>
               <p>
-                Every client is treated with full attention to detail as if you are our only client, with
-                a focus on partnership, responsiveness, and long-term success.
+                Perhaps most importantly, every client we have is treated with full attention to detail
+                as if you are our only client. We aim to build long-term relationships, prioritizing a
+                partnership over just a transaction. Your success is tied to ours and we ultimately are
+                client-first in everything we do. Whether that means regular check-in calls, rounds of
+                iterations to build confidence, or being on call when you actually need us, we will
+                ensure that your experience and our quality of work comes before all else.
               </p>
             </article>
           </div>
@@ -139,11 +158,23 @@ export default function HomePage() {
               Learn more
             </Link>
           </div>
-          <div className="values-graphic">
-            <div className="value-pill">Your voice is your currency</div>
-            <div className="value-pill value-pill-cream">Quality over quantity</div>
-            <div className="value-pill value-pill-blue">Curiosity</div>
-            <div className="value-pill value-pill-burgundy">Integrity</div>
+          <div className="values-wheel" role="img" aria-label="Core values: Your voice is your currency, Quality over quantity, Curiosity, Integrity">
+            <div className="values-wheel-hub">
+              <span className="values-wheel-hub-kicker">Our</span>
+              <span className="values-wheel-hub-title">Values</span>
+            </div>
+            <div className="values-wheel-spoke values-wheel-spoke-tl">
+              <span>Your voice is your currency</span>
+            </div>
+            <div className="values-wheel-spoke values-wheel-spoke-tr">
+              <span>Quality over quantity</span>
+            </div>
+            <div className="values-wheel-spoke values-wheel-spoke-bl">
+              <span>Curiosity</span>
+            </div>
+            <div className="values-wheel-spoke values-wheel-spoke-br">
+              <span>Integrity</span>
+            </div>
           </div>
         </div>
       </section>
@@ -155,7 +186,7 @@ export default function HomePage() {
             <h2>Built around the why behind every decision.</h2>
             <p>
               My name is Will Papazahariou and I founded Kanos Group so I could build a company that
-              emphasizes the why behind every single decision. I believe that when curious and driven
+              emphasizes the “Why” behind every single decision. I believe that when curious and driven
               people meet purposeful and passionate businesses, really good stories are produced as a
               result.
             </p>
@@ -169,7 +200,11 @@ export default function HomePage() {
           </div>
           <div className="founder-preview-media">
             <div className="founder-logo-card">
-              <div className="founder-initials">KM</div>
+              <img
+                src="/images/logo-mark.png"
+                alt="Kanos Marketing monogram"
+                className="founder-logo-image"
+              />
             </div>
             <div className="inline-image-card founder-preview-image">
               <img
