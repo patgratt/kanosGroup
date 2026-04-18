@@ -98,7 +98,7 @@ a {
   width: 100%;
   display: block;
   object-fit: contain;
-  object-position: right center;
+  object-position: left center;
 }
 
 .brand-wordmark {
@@ -293,6 +293,20 @@ b {
 .btn-ghost:hover {
   background: var(--green-700);
   color: var(--white);
+}
+
+.hero-stage-overlay .btn,
+.hero-stage-overlay .btn-ghost {
+  border-color: var(--cream);
+  color: var(--cream);
+  background: rgba(0, 39, 22, 0.2);
+  backdrop-filter: blur(6px);
+}
+
+.hero-stage-overlay .btn:hover,
+.hero-stage-overlay .btn-ghost:hover {
+  background: var(--cream);
+  color: var(--green-900);
 }
 
 .text-link {
