@@ -30,9 +30,11 @@ export default function Layout({ children }) {
       <header className="site-header">
         <div className="container nav-wrap">
           <Link to="/" className="brand" aria-label="Kanos Marketing home">
-            <div className="header-initials-mark" aria-hidden="true">
-              KM
-            </div>
+            <img
+              src="/images/logo-mark.png"
+              alt="Kanos Marketing"
+              className="header-logo-mark"
+            />
           </Link>
 
           <button
@@ -70,8 +72,8 @@ export default function Layout({ children }) {
         <div className="container footer-grid">
           <div className="footer-brand">
             <img
-              src="/feedback-assets/image3.png"
-              alt="Kanos Marketing wordmark"
+              src="/images/logo-wordmark.png"
+              alt="Kanos Marketing"
               className="footer-wordmark"
             />
             <p>Turning experiences into stories</p>
