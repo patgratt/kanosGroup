@@ -819,6 +819,7 @@ b {
   letter-spacing: 0.22em;
   font-weight: 700;
   color: var(--sand);
+  line-height: 1;
 }
 
 .values-wheel-hub-title {
@@ -826,7 +827,7 @@ b {
   font-size: clamp(1.2rem, 2vw, 1.6rem);
   font-weight: 700;
   line-height: 1;
-  margin-top: 0.2rem;
+  margin-top: 0;
 }
 
 .section-soft {
