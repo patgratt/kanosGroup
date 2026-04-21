@@ -12,13 +12,13 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="about-hero-card">
-            <p className="statement-label">Mission Statement</p>
+            <p className="statement-label">Our Mission</p>
             <p>
               Our mission is to help small businesses and organizations discover, craft, and communicate
               their authentic voice by emphasizing high-level, intentional strategies so that they grow
               into distinguished and purposeful brands.
             </p>
-            <p className="statement-label">Vision Statement</p>
+            <p className="statement-label">Our Vision</p>
             <p>
               We want to build a company that has a deep and accurate understanding of people and how they
               operate in the many different contexts of the world.
