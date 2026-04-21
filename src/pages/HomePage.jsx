@@ -41,15 +41,9 @@ export default function HomePage() {
 
       <section className="section">
         <div className="container">
-          <div className="section-heading">
-            <div>
-              <p className="section-kicker">Mission and Vision</p>
-              <h2>The principles guiding how Kanos grows brands.</h2>
-            </div>
-          </div>
           <div className="mission-grid">
             <article className="statement-card">
-              <p className="statement-label">Mission Statement</p>
+              <p className="statement-label">Our Mission</p>
               <p>
                 Our mission is to help small businesses and organizations discover, craft, and
                 communicate their authentic voice by emphasizing high-level, intentional strategies so
@@ -57,7 +51,7 @@ export default function HomePage() {
               </p>
             </article>
             <article className="statement-card statement-card-alt">
-              <p className="statement-label">Vision Statement</p>
+              <p className="statement-label">Our Vision</p>
               <p>
                 We want to build a company that has a deep and accurate understanding of people and how
                 they operate in the many different contexts of the world. We believe that when clear and
