@@ -212,13 +212,14 @@ h2 {
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 p {
   margin: 0 0 1rem;
   color: var(--muted);
   font-weight: 300;
+  font-size: 1.125rem;
 }
 
 strong,
@@ -673,11 +674,8 @@ b {
 }
 
 .statement-card .statement-label {
-  font-size: 1.05rem;
-}
-
-.statement-card p {
-  font-size: 1.125rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.08em;
 }
 
 .service-flow {
@@ -770,9 +768,10 @@ b {
   display: inline-block;
   margin-bottom: 0.85rem;
   color: var(--green-700);
-  font-size: 0.88rem;
+  font-size: 0.75rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
 }
 
 .home-values-layout {
@@ -905,7 +904,6 @@ b {
 }
 
 .founder-preview-copy p {
-  font-size: 1.2rem;
   line-height: 1.6;
 }
 
