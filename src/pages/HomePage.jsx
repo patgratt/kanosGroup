@@ -12,13 +12,15 @@ export default function HomePage() {
               className="hero-stage-image"
             />
             <div className="hero-stage-overlay">
-              <img
-                src="/images/logo-wordmark-sand.png"
-                alt="Kanos Marketing"
-                className="hero-wordmark"
-              />
-              <div className="hero-base">
+              <div className="hero-sky">
+                <img
+                  src="/images/logo-wordmark-sand.png"
+                  alt="Kanos Marketing"
+                  className="hero-wordmark"
+                />
                 <p className="hero-tagline">Turning experiences into stories</p>
+              </div>
+              <div className="hero-base">
                 <p className="hero-intro">
                   Welcome to Kanos Marketing, your boutique agency committed to bringing your story to life
                   by connecting your identity to your audience.
