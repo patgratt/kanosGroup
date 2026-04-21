@@ -42,9 +42,15 @@ export default function ContactPage() {
               </p>
               <a href="mailto:will.papaz@kanosmarketing.com">will.papaz@kanosmarketing.com</a>
               <p>
-                <strong>Call or text</strong>
+                <strong>LinkedIn</strong>
               </p>
-              <a href="tel:+1-000-000-0000">XXX-XXX-XXXX</a>
+              <a
+                href="https://www.linkedin.com/in/william-papazahariou?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                linkedin.com/in/william-papazahariou
+              </a>
             </div>
             <div className="cta-row">
               <a href="mailto:will.papaz@kanosmarketing.com" className="btn">

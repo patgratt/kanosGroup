@@ -254,6 +254,7 @@ b {
 .cta-actions {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 0.8rem;
   margin-top: 1.4rem;
 }
@@ -921,7 +922,6 @@ b {
 }
 
 .value-list-card > div + div,
-.contact-detail-list p + a,
 .clean-list li + li {
   margin-top: 0.85rem;
 }
@@ -949,10 +949,24 @@ b {
   padding: 1.6rem;
 }
 
-.contact-card-large a {
+.contact-card-large a:not(.btn) {
   text-decoration: none;
   color: var(--green-700);
   font-weight: 700;
+}
+
+.contact-detail-list p {
+  margin: 0 0 0.25rem;
+}
+
+.contact-detail-list a {
+  display: block;
+  margin: 0 0 1.1rem;
+  word-break: break-word;
+}
+
+.contact-detail-list a:last-of-type {
+  margin-bottom: 0;
 }
 
 .clean-list {
