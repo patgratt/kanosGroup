@@ -72,7 +72,7 @@ export default function HomePage() {
           <div className="section-heading">
             <div>
               <p className="section-kicker">What we do</p>
-              <h2>Services built as a progression from strategy to optimization.</h2>
+              <h2>We offer marketing guidance every step of the way: from strategy to analytics</h2>
             </div>
             <Link to="/services" className="text-link">
               Explore all services
@@ -83,8 +83,6 @@ export default function HomePage() {
               <span className="flow-number">01</span>
               <h3>Strategy Development</h3>
               <p>
-                We help you set relevant and realistic goals that align with the current state of your
-                company. Then, we tailor marketing strategies that set you apart from the competition.
                 We not only help you define your place in the market, but we define who your customer
                 is and how they behave, so we can ground our strategy in a deep understanding of your
                 audience. We believe this foundational step serves as an anchor for your company to
@@ -98,9 +96,7 @@ export default function HomePage() {
                 Based on our strategy development, we create content that is fresh and relevant to your
                 target customer, with strong intention behind every step of the creative process. Our
                 campaigns are designed to help you achieve a sustainable, long-term brand positioning,
-                with a custom multi-platform approach best suited for your business. Every campaign is
-                designed with an end goal in mind, so that each piece of campaign serves to create a
-                sum greater than its parts.
+                with a custom multi-platform approach best suited for your business.
               </p>
             </article>
             <article className="flow-card flow-card-blue">
@@ -109,9 +105,7 @@ export default function HomePage() {
               <p>
                 We schedule and post the content for you with an editorial calendar, set up all the
                 tools you need, engage with audiences, and manage ads to ensure your marketing
-                ecosystem gives users a seamless experience across platforms. We continue to optimize
-                throughout the campaign by testing creatives and tweaking budgets when necessary to
-                give you insights and maximize your investment.
+                ecosystem gives users a seamless experience across platforms.
               </p>
             </article>
             <article className="flow-card flow-card-burgundy">

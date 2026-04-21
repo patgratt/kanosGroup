@@ -66,8 +66,8 @@ a {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: #66717e;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  background: #d4cebf;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
   backdrop-filter: blur(12px);
 }
 
@@ -119,7 +119,7 @@ a {
 
 .site-nav a {
   text-decoration: none;
-  color: var(--white);
+  color: var(--green-900);
   font-weight: 600;
 }
 
@@ -133,7 +133,7 @@ a {
 
 .site-nav a:not(.btn):hover,
 .site-nav a.is-active {
-  color: var(--cream);
+  color: var(--green-700);
 }
 
 .menu-toggle {
@@ -672,11 +672,45 @@ b {
   font-weight: 700;
 }
 
+.statement-card .statement-label {
+  font-size: 1.05rem;
+}
+
+.statement-card p {
+  font-size: 1.125rem;
+}
+
 .service-flow {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: auto auto;
   gap: 1rem;
   align-items: stretch;
+}
+
+.service-flow .flow-card-green {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.service-flow .flow-card-cream {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.service-flow .flow-card-blue {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.service-flow .flow-card-burgundy {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.service-flow .flow-card-sand {
+  grid-column: 1 / -1;
+  grid-row: 2;
 }
 
 .flow-card {
@@ -1048,6 +1082,15 @@ b {
   .timeline-grid,
   .process-grid {
     grid-template-columns: 1fr;
+  }
+
+  .service-flow .flow-card-green,
+  .service-flow .flow-card-cream,
+  .service-flow .flow-card-blue,
+  .service-flow .flow-card-burgundy,
+  .service-flow .flow-card-sand {
+    grid-column: auto;
+    grid-row: auto;
   }
 
   .footer-copy {
