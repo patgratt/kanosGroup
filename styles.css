@@ -782,6 +782,19 @@ b {
   align-items: center;
 }
 
+.values-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+
+.values-heading {
+  margin: 0;
+  max-width: 28ch;
+}
+
 .values-wheel {
   position: relative;
   aspect-ratio: 1 / 1;
@@ -882,10 +895,11 @@ b {
 }
 
 .founder-preview {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
-  align-items: center;
+  display: block;
+}
+
+.founder-preview-copy {
+  max-width: 70ch;
 }
 
 .founder-preview-media {

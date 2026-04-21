@@ -136,18 +136,8 @@ export default function HomePage() {
       </section>
 
       <section className="section">
-        <div className="container home-values-layout">
-          <div className="panel-copy">
-            <p className="section-kicker">Our philosophy</p>
-            <h2>The values behind how we think, create, and partner.</h2>
-            <p>
-              These are the core principles that guide our work. The expanded thinking behind each value
-              lives on the About Us page.
-            </p>
-            <Link to="/about" className="btn btn-ghost">
-              Learn more
-            </Link>
-          </div>
+        <div className="container values-centered">
+          <h2 className="values-heading">These are the core values that guide our work</h2>
           <div className="values-wheel" role="img" aria-label="Core values: Your voice is your currency, Quality over quantity, Curiosity, Integrity">
             <div className="values-wheel-hub">
               <span className="values-wheel-hub-kicker">Our</span>
@@ -166,6 +156,9 @@ export default function HomePage() {
               <span>Integrity</span>
             </div>
           </div>
+          <Link to="/about" className="btn btn-ghost">
+            Learn more
+          </Link>
         </div>
       </section>
 
@@ -187,22 +180,6 @@ export default function HomePage() {
             <Link to="/about" className="btn">
               Learn More
             </Link>
-          </div>
-          <div className="founder-preview-media">
-            <div className="founder-logo-card">
-              <img
-                src="/images/logo-mark.png"
-                alt="Kanos Marketing monogram"
-                className="founder-logo-image"
-              />
-            </div>
-            <div className="inline-image-card founder-preview-image">
-              <img
-                src="/images/image6.jpg"
-                alt="Business discussion representing thoughtful partnership"
-                className="section-image"
-              />
-            </div>
           </div>
         </div>
       </section>
