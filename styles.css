@@ -896,10 +896,17 @@ b {
 
 .founder-preview {
   display: block;
+  text-align: center;
 }
 
 .founder-preview-copy {
   max-width: 70ch;
+  margin-inline: auto;
+}
+
+.founder-preview-copy p {
+  font-size: 1.2rem;
+  line-height: 1.6;
 }
 
 .founder-preview-media {
