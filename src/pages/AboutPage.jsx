@@ -1,35 +1,8 @@
 export default function AboutPage() {
   return (
     <main>
-      <section className="page-hero">
-        <div className="container page-hero-grid">
-          <div>
-            <p className="eyebrow">ABOUT US</p>
-            <h1>Thoughtful strategy, clear voice, and intentional work.</h1>
-            <p className="lead">
-              A boutique agency committed to helping brands communicate who they are with more clarity,
-              confidence, and purpose.
-            </p>
-          </div>
-          <div className="about-hero-card">
-            <p className="statement-label">Our Mission</p>
-            <p>
-              Our mission is to help small businesses and organizations discover, craft, and communicate
-              their authentic voice by emphasizing high-level, intentional strategies so that they grow
-              into distinguished and purposeful brands.
-            </p>
-            <p className="statement-label">Our Vision</p>
-            <p>
-              We want to build a company that has a deep and accurate understanding of people and how they
-              operate in the many different contexts of the world.
-            </p>
-          </div>
-        </div>
-      </section>
-
       <section className="section">
         <div className="container prose-section">
-          <p className="section-kicker">About Kanos</p>
           <h2>About Us</h2>
           <div className="prose-copy">
             <p>
@@ -65,8 +38,7 @@ export default function AboutPage() {
 
       <section className="section section-alt">
         <div className="container">
-          <p className="section-kicker">Values</p>
-          <h2>Expanded core values</h2>
+          <h2>Core Values</h2>
           <div className="values-grid">
             <article className="value-card">
               <h3>Your voice is your currency</h3>

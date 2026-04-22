@@ -74,7 +74,7 @@ export default function HomePage() {
               <p className="section-kicker">What we do</p>
               <h2>We offer marketing guidance every step of the way: from strategy to analytics</h2>
             </div>
-            <Link to="/services" className="text-link">
+            <Link to="/services" className="btn btn-ghost">
               Explore all services
             </Link>
           </div>
@@ -135,7 +135,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section section-mint">
         <div className="container values-centered">
           <h2 className="values-heading">These are the core values that guide our work</h2>
           <div className="values-wheel" role="img" aria-label="Core values: Your voice is your currency, Quality over quantity, Curiosity, Integrity">
