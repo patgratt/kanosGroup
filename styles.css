@@ -1073,6 +1073,12 @@ b {
   padding: 1.6rem;
 }
 
+.contact-card-wide {
+  padding: 3rem 3.5rem;
+  max-width: 780px;
+  margin-inline: auto;
+}
+
 .contact-card-large a:not(.btn) {
   text-decoration: none;
   color: var(--green-700);
