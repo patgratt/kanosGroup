@@ -115,12 +115,12 @@ export default function AboutPage() {
         <div className="container past-work-copy">
           <h2>My Past Work</h2>
           <p>
-            In my past, I’ve generated over $3 million dollars in revenue through leading, training,
-            managing, and scaling sales teams for a small financial services company, selling to both
-            B2C and B2B customers. I helped define our sales strategies through gaining a deep
-            understanding of the people we spoke with, day in and day out, for years. In that time, I
-            learned that at the heart of sales is listening over telling; empathizing over forcing; and
-            guiding with truth and transparency above all else.
+            In my past as a Sales Leader, I’ve generated over $3 million dollars in revenue through
+            leading, training, managing, and scaling sales teams for a small financial services company,
+            selling to both B2C and B2B customers. I helped define our sales strategies through gaining
+            a deep understanding of the people we spoke with, day in and day out, for years. In that
+            time, I learned that at the heart of sales is listening over telling; empathizing over
+            forcing; and guiding with truth and transparency above all else.
           </p>
           <p>
             I not only led the top performing sales team in our company, but I also worked with the
@@ -131,13 +131,12 @@ export default function AboutPage() {
           </p>
           <p>
             When I was a Strategy Consultant for a top management consultancy here in NYC, I had the
-            opportunity to work on massive market, brand, and corporate strategy projects across
-            various sectors including Streaming, Financial Services, and Alcoholic Beverages, for
-            Fortune 500 companies. Here, I really developed the significance of putting strategy,
-            direction, and thought into every decision in a project to support an overarching goal.
-            Here, I was able to see the impact of blending together all different kinds of research,
-            analysis, and frameworks to create solid insights that can then be used in recommending
-            real strategies for companies.
+            opportunity to work on massive market, brand, and corporate strategy projects for Fortune
+            500 companies across various sectors including Streaming, Financial Services, and Alcoholic
+            Beverages. Here, I really learned the significance of putting strategy, direction, and
+            thought into every decision in a project to support an overarching goal. I was able to see
+            the impact of blending together all different kinds of research, analysis, and frameworks
+            to create insights that can then be used in recommending real strategies for companies.
           </p>
         </div>
       </section>
