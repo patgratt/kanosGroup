@@ -2,26 +2,12 @@ export default function ServicesPage() {
   return (
     <main>
       <section className="page-hero">
-        <div className="container page-hero-grid">
-          <div>
-            <p className="eyebrow">SERVICES</p>
-            <h1>Support across the full marketing funnel, or exactly where you need it most.</h1>
-            <p className="lead">
-              We can act as an end-to-end marketing partner or focus on specific projects when your
-              business needs sharper strategy, stronger creative, or cleaner execution.
-            </p>
-          </div>
-          <div className="about-hero-card">
-            <p className="statement-label">How to read this page</p>
-            <p>
-              Think of each practice area as part of a larger funnel, moving from strategy to creation,
-              then execution, optimization, and ongoing account management.
-            </p>
-            <p>
-              We can support the full stack or focus on the specific stage where your business needs the
-              most help right now.
-            </p>
-          </div>
+        <div className="container page-hero-centered">
+          <p className="eyebrow">SERVICES</p>
+          <h1>End-to-end Marketing Services Tailoired to Your Niche</h1>
+          <p className="lead">
+          We put a strong emphasis on strategy to give your business a strong foundation to build on.
+          </p>
         </div>
       </section>
 

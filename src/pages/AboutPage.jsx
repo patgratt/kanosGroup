@@ -40,7 +40,7 @@ export default function AboutPage() {
         <div className="container">
           <h2>Core Values</h2>
           <div className="values-grid">
-            <article className="value-card">
+            <article className="value-card value-card-green">
               <h3>Your voice is your currency</h3>
               <p>
                 We believe that your voice is your currency. Small businesses often don’t realize that
@@ -49,7 +49,7 @@ export default function AboutPage() {
                 only you have.
               </p>
             </article>
-            <article className="value-card">
+            <article className="value-card value-card-burgundy">
               <h3>Quality over quantity</h3>
               <p>
                 We believe in quality over quantity. We are interested in creating content that is rooted
@@ -59,7 +59,7 @@ export default function AboutPage() {
                 marketing can sink your reputation and lose customers’ trust and attention.
               </p>
             </article>
-            <article className="value-card">
+            <article className="value-card value-card-blue">
               <h3>Curiosity</h3>
               <p>
                 We encourage curiosity. We are obsessed with the process and technique behind all things;
@@ -70,7 +70,7 @@ export default function AboutPage() {
                 thinking outside of the box, but are able to create a new box altogether to operate in.
               </p>
             </article>
-            <article className="value-card">
+            <article className="value-card value-card-cream">
               <h3>Integrity</h3>
               <p>
                 Integrity. We know that sounds boring. But the integrity of our research, our proposals,
@@ -96,7 +96,6 @@ export default function AboutPage() {
             </div>
           </div>
           <div className="prose-copy">
-            <p className="section-kicker">The Founder&apos;s Story</p>
             <h2>The Founder&apos;s Story</h2>
             <p>
               My name is Will Papazahariou and I founded Kanos Group so I could build a company that
@@ -111,34 +110,35 @@ export default function AboutPage() {
               often the biggest asset that a company can have and am obsessed with the fine details of
               brands that leave lasting impressions on us.
             </p>
-            <p className="section-kicker">My Past Work</p>
-            <h2>My Past Work</h2>
-            <p>
-              In my past, I’ve generated over $3 million dollars in revenue through leading, training,
-              managing, and scaling sales teams for a small financial services company, selling to both
-              B2C and B2B customers. I helped define our sales strategies through gaining a deep
-              understanding of the people we spoke with, day in and day out, for years. In that time, I
-              learned that at the heart of sales is listening over telling; empathizing over forcing; and
-              guiding with truth and transparency above all else.
-            </p>
-            <p>
-              I not only led the top performing sales team in our company, but I also worked with the
-              executive team where I established our core values, created the messaging used in our sales
-              outreach, and developed digital marketing strategies, all of which helped to move the
-              company in the right direction. Here I developed a passion for storytelling and creative
-              strategy that next led me into the management consulting industry.
-            </p>
-            <p>
-              When I was a Strategy Consultant for a top management consultancy here in NYC, I had the
-              opportunity to work on massive market, brand, and corporate strategy projects across
-              various sectors including Streaming, Financial Services, and Alcoholic Beverages, for
-              Fortune 500 companies. Here, I really developed the significance of putting strategy,
-              direction, and thought into every decision in a project to support an overarching goal.
-              Here, I was able to see the impact of blending together all different kinds of research,
-              analysis, and frameworks to create solid insights that can then be used in recommending
-              real strategies for companies.
-            </p>
           </div>
+        </div>
+        <div className="container past-work-copy">
+          <h2>My Past Work</h2>
+          <p>
+            In my past, I’ve generated over $3 million dollars in revenue through leading, training,
+            managing, and scaling sales teams for a small financial services company, selling to both
+            B2C and B2B customers. I helped define our sales strategies through gaining a deep
+            understanding of the people we spoke with, day in and day out, for years. In that time, I
+            learned that at the heart of sales is listening over telling; empathizing over forcing; and
+            guiding with truth and transparency above all else.
+          </p>
+          <p>
+            I not only led the top performing sales team in our company, but I also worked with the
+            executive team where I established our core values, created the messaging used in our sales
+            outreach, and developed digital marketing strategies, all of which helped to move the
+            company in the right direction. Here I developed a passion for storytelling and creative
+            strategy that next led me into the management consulting industry.
+          </p>
+          <p>
+            When I was a Strategy Consultant for a top management consultancy here in NYC, I had the
+            opportunity to work on massive market, brand, and corporate strategy projects across
+            various sectors including Streaming, Financial Services, and Alcoholic Beverages, for
+            Fortune 500 companies. Here, I really developed the significance of putting strategy,
+            direction, and thought into every decision in a project to support an overarching goal.
+            Here, I was able to see the impact of blending together all different kinds of research,
+            analysis, and frameworks to create solid insights that can then be used in recommending
+            real strategies for companies.
+          </p>
         </div>
       </section>
     </main>
