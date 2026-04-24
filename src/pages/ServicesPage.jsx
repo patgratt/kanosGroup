@@ -127,9 +127,9 @@ export default function ServicesPage() {
                 <li>Remarketing</li>
               </ul>
             </div>
-            <div className="practice-media">
+            <div className="practice-media practice-media-portrait">
               <img
-                src="/images/image3.png"
+                src="/images/pexels-artempodrez-5715854.jpg"
                 alt="Team reviewing analytics and performance documents"
                 className="practice-image"
               />

@@ -1033,6 +1033,18 @@ b {
   padding: 1.6rem;
 }
 
+.practice-media-portrait {
+  align-self: start;
+  max-height: 624px;
+  overflow: hidden;
+}
+
+.practice-media-portrait .practice-image {
+  height: 624px;
+  min-height: auto;
+  object-position: center top;
+}
+
 .practice-image {
   width: 100%;
   height: 100%;
@@ -1230,6 +1242,14 @@ b {
   .hero-main-image,
   .practice-image {
     height: 240px;
+  }
+
+  .practice-media-portrait {
+    max-height: 288px;
+  }
+
+  .practice-media-portrait .practice-image {
+    height: 288px;
   }
 
   h1 {
