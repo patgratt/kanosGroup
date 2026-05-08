@@ -150,10 +150,10 @@ export default function HomePage() {
               <span>Quality over quantity</span>
             </div>
             <div className="values-wheel-spoke values-wheel-spoke-bl">
-              <span>Sparking Curiosity</span>
+              <span>Sparking curiosity</span>
             </div>
             <div className="values-wheel-spoke values-wheel-spoke-br">
-              <span>UnbreakableIntegrity</span>
+              <span>Unbreakable integrity</span>
             </div>
           </div>
           <Link to="/about" className="btn btn-ghost">
