@@ -20,9 +20,9 @@ export default function AboutPage() {
             </p>
             <p>
               As a boutique agency, we are committed to a high quality of work and lasting, personal
-              relationships with our clients. We work with people, internally and externally, that are
-              truly inspired by the work they put out in the world. We help sharpen these passionate
-              identities into fully-developed and flourishing brands.
+              relationships with our clients. We work with people that are
+              truly inspired by the work they put out in the world. We help sharpen passion
+              into fully-developed and flourishing brands.
             </p>
             <p>
               <strong>
