@@ -60,7 +60,7 @@ export default function AboutPage() {
               </p>
             </article>
             <article className="value-card value-card-blue">
-              <h3>Curiosity</h3>
+              <h3>Sparking Curiosity</h3>
               <p>
                 We encourage curiosity. We are obsessed with the process and technique behind all things;
                 the why of it all. We rigorously ask why in everything we do, so that every decision we
@@ -71,7 +71,7 @@ export default function AboutPage() {
               </p>
             </article>
             <article className="value-card value-card-cream">
-              <h3>Integrity</h3>
+              <h3>Unbreakable Integrity</h3>
               <p>
                 Integrity. We know that sounds boring. But the integrity of our research, our proposals,
                 our people, means everything to us. The ability to root our work in really strong
