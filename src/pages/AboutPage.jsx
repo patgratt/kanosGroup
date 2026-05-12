@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function AboutPage() {
   return (
     <main>
@@ -32,6 +34,11 @@ export default function AboutPage() {
               or we can help anywhere in your marketing funnel if you need more project-specific
               support.
             </p>
+          </div>
+          <div className="about-services-cta">
+            <Link to="/services" className="btn">
+            Learn more about our services here
+            </Link>
           </div>
         </div>
       </section>
@@ -98,7 +105,7 @@ export default function AboutPage() {
           <div className="prose-copy">
             <h2>The Founder&apos;s Story</h2>
             <p>
-              My name is Will Papazahariou and I founded Kanos Group so I could build a company that
+              My name is Will Papazahariou and I founded Kanos Marketing so I could build a company that
               emphasizes the “Why” behind every single decision. I believe that when curious and driven
               people meet purposeful and passionate businesses, really good stories are produced as a
               result. This storytelling, feeling of community, and personal messaging is the core essence

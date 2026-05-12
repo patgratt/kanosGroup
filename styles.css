@@ -301,6 +301,11 @@ b {
   background: var(--green-900);
 }
 
+.btn:focus-visible {
+  outline: 2px solid var(--green-900);
+  outline-offset: 3px;
+}
+
 .btn-sm {
   padding: 0.55rem 0.95rem;
 }
@@ -999,6 +1004,14 @@ b {
 
 .prose-copy p strong {
   color: inherit;
+}
+
+.about-services-cta {
+  margin-top: 2.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
 }
 
 .practice-stack {
