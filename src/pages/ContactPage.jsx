@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function ContactPage() {
   return (
     <main>
-      <section className="page-hero">
+      <section className="page-hero contact-hero">
         <div className="container page-hero-centered">
           <p className="eyebrow">CONTACT</p>
           <h1>Tell us what you are building and where you need support.</h1>
@@ -14,7 +14,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section contact-section">
         <div className="container">
           <article className="contact-card-large contact-card-wide">
             <p className="section-kicker">Get in touch</p>
