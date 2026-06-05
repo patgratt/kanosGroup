@@ -102,7 +102,7 @@ flowchart TB
   subgraph email_path["Email path (Gmail, etc.)"]
     S[Sender] --> DNS2[DNS: MX record]
     DNS2 --> G[Google Workspace]
-    G --> W[will.papaz@kanosmarketing.com]
+    G --> W["will.papaz@kanosmarketing.com"]
   end
 
   subgraph vercel_dns["Vercel DNS for kanosmarketing.com"]
