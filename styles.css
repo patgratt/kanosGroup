@@ -76,7 +76,7 @@ a {
   min-height: 80px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 1rem;
 }
 
@@ -115,6 +115,7 @@ a {
   display: flex;
   align-items: center;
   gap: 1.2rem;
+  margin-left: 1.5rem;
 }
 
 .site-nav a {
@@ -1216,6 +1217,7 @@ b {
     top: 80px;
     left: 0;
     right: 0;
+    margin-left: 0;
     display: none;
     flex-direction: column;
     align-items: flex-start;
