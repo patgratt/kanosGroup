@@ -21,10 +21,6 @@ export default function HomePage() {
                 <p className="hero-tagline">Turning experiences into stories</p>
               </div>
               <div className="hero-base">
-                <p className="hero-intro">
-                  Welcome to Kanos Marketing, your boutique agency committed to bringing your story to life
-                  by connecting your identity to your audience.
-                </p>
                 <div className="cta-row">
                   <Link to="/contact" className="btn">
                     Start a conversation
@@ -36,6 +32,10 @@ export default function HomePage() {
               </div>
             </div>
           </div>
+          <p className="hero-intro">
+            Welcome to Kanos Marketing, your boutique agency committed to bringing your story to life
+            by connecting your identity to your audience.
+          </p>
         </div>
       </section>
 
